@@ -46,6 +46,7 @@ echo "--------- oh-my-zsh ----------"
 # install oh-my-zsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+echo "---------- Powerlevel10k ----------"
 # Powerlevel10k 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 wget -O $HOME/.zshrc https://raw.githubusercontent.com/0xSixty6/setup-env/main/oh-my-zsh/.zshrc
