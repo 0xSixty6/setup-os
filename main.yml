@@ -8,7 +8,6 @@
       users:
         - username: "{{ ansible_user_id }}"
           visual_studio_code_extensions:
-            - streetsidesoftware.code-spell-checker
             - ms-python.python
             - snyk-security.snyk-vulnerability-scanner
             - Blackboxapp.blackbox
