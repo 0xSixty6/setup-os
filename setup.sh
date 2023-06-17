@@ -4,6 +4,7 @@ echo "------ install ansible -------------"
 # install ansible
 sudo apt install ansible -y
 
+ansible-galaxy install -r requirements.yml
 ansible-playbook main.yml -i inventory.ini --ask-become-pass
 
 echo "--------- install neovim --------------"
