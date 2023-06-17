@@ -8,13 +8,13 @@
 
 - name: "Create a directory tmux"
   ansible.builtin.file:
-    path: "{{ ansible_env.HOME }}/.config/tmux1"
+    path: "{{ ansible_env.HOME }}/.config/tmux"
     state: directory
     mode: '0755'
 
 - name: "Download tmux.conf"
   ansible.builtin.get_url:
-    url: "https://github.com/0xSixty6/setup-env/blob/main/tmux.conf"
-    dest: "{{ ansible_env.HOME }}/.config"
+    url: "https://raw.githubusercontent.com/0xSixty6/setup-env/main/tmux.conf"
+    dest: "{{ ansible_env.HOME }}/.config/tmux"
     mode: '0755'
 
