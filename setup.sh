@@ -30,7 +30,7 @@ fi
 
 echo "------ Install font ------------"
 # install font
-mkdir $HOME/.local/share/fonts/Hack.zip
+mkdir $HOME/.local/share/fonts/
 wget -o $HOME/.local/share/fonts/ https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
 unzip Hack.zip
 rm Hack.zip
