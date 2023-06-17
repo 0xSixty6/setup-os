@@ -35,6 +35,12 @@ unzip Hack.zip
 rm Hack.zip
 fc-cache -fv
 
+echo "--------- Install zsh shell"
+# install zsh
+sudo apt-get install zsh -y
+#change shell
+chsh -s /usr/bin/zsh
+
 echo "--------- oh-my-zsh ----------"
 # install oh-my-zsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
