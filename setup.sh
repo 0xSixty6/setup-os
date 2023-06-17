@@ -7,6 +7,10 @@ sudo apt install ansible -y
 ansible-galaxy install -r requirements.yml
 ansible-playbook main.yml -i inventory.ini --ask-become-pass
 
+echo "Tmux Plugin Manager"
+#install Tmux Plugin Manager
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 echo "--------- install neovim --------------"
 # install neovim
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
