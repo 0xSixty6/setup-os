@@ -44,7 +44,7 @@ chsh -s /usr/bin/zsh
 
 echo "--------- oh-my-zsh ----------"
 # install oh-my-zsh
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+nohup sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo "---------- Powerlevel10k ----------"
 # Powerlevel10k 
