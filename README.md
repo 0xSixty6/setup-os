@@ -1,2 +1,2 @@
-# setup-os
+# Setup-OS
 Parrot os 
